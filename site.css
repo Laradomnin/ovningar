@@ -31,4 +31,5 @@ main{
 }
 footer{padding: 30px;}
 aside,
-article{padding: 5em;}
+article
+{ padding: 5em; }
