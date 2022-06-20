@@ -13,23 +13,40 @@ p {
     margin: 0.5em 0 0.5em 0;
 
 }  
-header{
+header { padding: 1em;
     display: block;
     position:fixed ;
-    top: 0em;;
+    top: 0em;
+    left: 0em;
     width: 100%;
-    padding: em;
-    background-color: blanchedalmond;
-    
-    font-size: small;
+    background-color: rgb(206, 168, 111);  
+     }
+
+     
+
+nav a:visited,
+nav a:link{
+    color: aliceblue;
+    text-decoration: none;
 }
+nav> ul {
+display: inline;
+padding: 0;
+}
+nav>ul>li{
+    display: inline;
+    list-style: none;
+    margin: 0 5px 0 5px ;
+}
+
+
 main{
     display: block;
-    padding: top 10em; ;
-    padding: bottom 10em;
+    padding: top 3em; ;
+    padding: bottom 3em;
     min-height: 85%;
 }
-footer{padding: 30px;}
+footer{padding: 3em;}
 aside,
 article
-{ padding: 5em; }
+{ padding: 1em; }
