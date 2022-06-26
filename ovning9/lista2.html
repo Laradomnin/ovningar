@@ -8,14 +8,17 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="text" id="txtVal">
-    <button onclick="addLi()">+</button>
-    
+    <h1>Inköpslista</h1>
+    <input type="text" id="txtVal" placeholder="Skriv här">
+    <button onclick="addLi()">Lögg till</button>
+    <button onclick="editLI()">Ändra</button>
+    <button onclick="deleteLI()">Ta bort</button>
+    <div class="out"> <h2>Här är din lista</h2> 
     <ul id="list">
-        
+      <li>+</li>  
         
     </ul>
-   
+    </div>
    <script src="lista2.js"> </script>
 </body>
 </html>
