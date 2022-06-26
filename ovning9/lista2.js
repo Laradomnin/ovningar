@@ -11,6 +11,7 @@
             
 }*/
 
+
 function addLi()
             {
 
@@ -23,3 +24,17 @@ function addLi()
                  listNode.appendChild(liNode);
             
             }
+
+function deleteLi(){
+                let txtVal=document.getElementById('txtVal'),
+                items = document.querySelectorAll("#list li"),
+            
+                tab = [], index;
+               
+
+
+
+
+
+
+}
