@@ -1,7 +1,7 @@
 
 function add(){
-var myDiv=document.getElementById(myDiv);
-var inputValue=document.getElementById(myInput);
+var myDiv=document.getElementById("myDiv");
+var inputValue=document.getElementById("myInput").value;
 
 var checkbox=document.createElement('input');
 if (inputValue === '') {
